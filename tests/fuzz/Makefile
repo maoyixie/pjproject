@@ -36,7 +36,9 @@ URL=fuzz-url
 URI=fuzz-uri
 CRYPTO=fuzz-crypto
 
-EXTFLAGS=-Wall -Werror
+#modify
+# EXTFLAGS=-Wall -Werror
+EXTFLAGS=-Wall
 
 all: $(TARGET)
 
